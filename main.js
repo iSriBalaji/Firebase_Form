@@ -13,7 +13,9 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 
-
+  // function payRedirect() {
+  //   location.replace("https://isribalaji.github.io/Firebase_Form/pay.html")
+  // }
 // Reference Message Collections
 var mesRef = firebase.database().ref('messages');
 
@@ -32,7 +34,9 @@ function submitForm(e){
   document.querySelector('.alert').style.display = 'block';
   setTimeout(function(){
     document.querySelector('.alert').style.display = 'none';
-  },3000);
+    location.replace("https://isribalaji.github.io/Firebase_Form/pay.html")
+    // location.replace("G:\\RZP\\index.html")
+  },1000);
 
   document.getElementById('regForm').reset();
 
