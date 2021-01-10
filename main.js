@@ -36,7 +36,7 @@ function submitForm(e){
     document.querySelector('.alert').style.display = 'none';
     location.replace("https://isribalaji.github.io/Firebase_Form/pay.html")
     // location.replace("G:\\RZP\\index.html")
-  },1000);
+  },2500);
 
   document.getElementById('regForm').reset();
 
